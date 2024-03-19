@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    color:white;
+}
+
+body {
+    width: 100%;
+    min-width: 1760px;
+    background-color: #6944FF;
+    white-space: nowrap;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:25px 102px;
+    width: 100%;
+    background-color: #4D2ADB;
+}
+
+.reus-e_logo {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size:64px;
+    font-weight:bold;
+}
+
+.reus-e_logo_title {
+    padding:0px 25px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar_item {
+    display: inline-block;
+    margin:0 5px;
+    padding: 20px;
+}
+
+.item_texto {
+    font-size:24px;
+    font-weight:lighter;
+}
+
+.item_texto:hover {
+    font-weight:bold;
+}
+
+.cadastre-se_texto {
+    font-size:24px;
+    font-weight:lighter;
+    background-color: #FE6496;
+    border-radius: 100px;
+    padding: 20px;
+    cursor:pointer
+}
+
+.cadastre-se_texto:hover {
+    font-weight:bold;
+}
+
+.sobre {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sobre_itens {
+    margin:34px 40px 0px 80px;
+}
+
+h2 {
+    font-size:40px;
+    font-weight:bold;
+}
+
+p {
+    font-size:28px;
+    font-weight:lighter;
+}
+
+.sobre_item {
+    margin:40px 0px;
+}
+
+.sobre_cadastre-se {
+    display: flex;
+    justify-content: center;
+}
+
+.sobre_cadastre-se_botão {
+    font-size:40px;
+    font-weight:lighter;
+    background-color: #FE6496;
+    border-radius: 100px;
+    padding: 20px;
+    cursor:pointer
+}
+
+.sobre_cadastre-se_botão:hover {
+   font-weight:bold;
+}
+
+.sobre_pag {
+    padding: 80px;
+}
